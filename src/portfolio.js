@@ -173,32 +173,43 @@ const techStack = {
 // Work experience section
 
 const workExperiences = {
-  display: true, //Set it to true to show workExperiences Section
+  display: true, // Set it to true to show workExperiences Section
   experience: [
     {
-      role: "WolfConnect (Sponsored by K2S) - Full Stack Software Engineer",
-      company: "NCSU",
+      role: "Full Stack Software Engineer – Senior Design Project",
+      company: "WolfConnect (Sponsored by K2S) – NCSU",
       companylogo: require("./assets/images/K2SLogo.png"),
       date: "January 2025 - May 2025",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      desc: "Led the development of a full-stack mentorship platform using Laravel, React, and REST APIs within a Dockerized microservices architecture.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Built a recommendation engine using weighted scoring for optimized mentor–mentee matchmaking",
+        "Created an activity feed and analytics dashboard with SQL and real-time state management",
+        "Employed test-driven development with PHPUnit and Jest; resolved 12+ critical issues"
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Compiler Developer – Academic Project",
+      company: "NCSU",
+      companylogo: require("./assets/images/NCSULogo.png"),
+      date: "August 2024 - December 2024",
+      desc: "Developed an LLVM-based tool to detect performance-critical input features in compiled code.",
+      descBullets: [
+        "Created custom compiler passes in C++ for static and dynamic analysis",
+        "Enabled support for loops, branches, and pointers in input tracking",
+        "Improved feature detection accuracy and analysis performance"
+      ]
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Software Engineer – Web Application",
+      company: "CoffeeMaker Project – NCSU",
+      companylogo: require("./assets/images/NCSULogo.png"),
+      date: "January 2024 - May 2024",
+      desc: "Built a beverage ordering web app using AngularJS, Java, and REST APIs.",
+      descBullets: [
+        "Led frontend integration with secure backend systems using Hibernate and MySQL",
+        "Revamped UI with Bootstrap and AngularJS for better UX and dynamic views",
+        "Implemented inventory and role-based access features"
+      ]
     }
   ]
 };
