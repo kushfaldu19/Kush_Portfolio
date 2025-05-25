@@ -20,10 +20,10 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Kush Faldu",
+  title: "Hi all, I'm Kush",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "I'm a Full Stack Software Developer 🚀 with hands-on experience building web and mobile applications using JavaScript, React.js, Node.js, React Native, and a variety of modern frameworks and libraries."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
@@ -33,13 +33,10 @@ const greeting = {
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/kushfaldu19",
+  linkedin: "https://www.linkedin.com/in/kush-faldu-a2017a19b",
+  gmail: "kushfaldu13@gmail.com",
+  gitlab: "https://gitlab.com/kushfaldu19",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -49,15 +46,11 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "Passionate Full-Stack Software Engineer Exploring a Wide Range of Technologies",
   skills: [
-    emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
-    ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    )
+    emoji("✨ Craft intuitive and engaging front-end experiences for web and mobile"),
+    emoji("🔧 Architect and develop scalable Progressive Web Applications (PWAs)"),
+    emoji("🔗 Seamlessly connect applications with cloud platforms like Google Cloud and AWS")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -65,11 +58,11 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html-5",
+      skillName: "html",
       fontAwesomeClassname: "fab fa-html5"
     },
     {
-      skillName: "css3",
+      skillName: "css",
       fontAwesomeClassname: "fab fa-css3-alt"
     },
     {
@@ -105,10 +98,6 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-aws"
     },
     {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
       skillName: "python",
       fontAwesomeClassname: "fab fa-python"
     },
@@ -126,23 +115,20 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      schoolName: "North Carolina State University",
+      logo: require("./assets/images/NCSULogo.png"),
+      subHeader: "Bachelor of Science in Computer Science",
+      duration: "August 2020 - May 2025",
+      desc: "Participated in the research of AI based Compilers",
+     
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
+      schoolName: "University Of North Carolina at Charlotte",
+      logo: require("./assets/images/UNCCLogo.png"),
       subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      duration: "August 2019 - May 2020",
+      desc: "Honors: Dean's List: Fall 2019, Chancellor's List: Spring 2020",
+   
     }
   ]
 };
@@ -152,17 +138,33 @@ const educationInfo = {
 const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
-    {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+    { 
+      Stack: "Frontend (React, HTML/CSS)", //Insert stack or technology you have experience in 
+      progressPercentage: 900 //Insert relative proficiency in percentage
     },
-    {
-      Stack: "Backend",
-      progressPercentage: "70%"
+    { 
+      Stack: "Backend (Node.js, Flask)", 
+      progressPercentage: 900 
     },
-    {
-      Stack: "Programming",
-      progressPercentage: "60%"
+    { 
+      Stack: "Data Science (Pandas, scikit-learn)", 
+      progressPercentage: 950 
+    },
+    { 
+      Stack: "Machine Learning (TensorFlow, PyTorch)", 
+      progressPercentage: 900 
+    },
+    { 
+      Stack: "Cloud & DevOps (AWS, Docker)", 
+      progressPercentage: 800 
+    },
+    { 
+      Stack: "Cybersecurity (OWASP, Python)", 
+      progressPercentage: 600 
+    },
+    { 
+      Stack: "Programming (Python, C++, Java)", 
+      progressPercentage: 1000 
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -174,10 +176,10 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
+      role: "WolfConnect (Sponsored by K2S) - Full Stack Software Engineer",
+      company: "NCSU",
+      companylogo: require("./assets/images/K2SLogo.png"),
+      date: "January 2025 - May 2025",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       descBullets: [
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
@@ -303,8 +305,7 @@ const achievementSection = {
   display: true // Set false to hide this section, defaults to true
 };
 
-// Blogs Section
-
+//blog section
 const blogSection = {
   title: "Blogs",
   subtitle:
@@ -330,34 +331,35 @@ const blogSection = {
 // Talks Sections
 
 const talkSection = {
-  title: "TALKS",
-  subtitle: emoji(
-    "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"
-  ),
+  // title: "TALKS",
+  // subtitle: emoji(
+  //   "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"
+  // ),
 
-  talks: [
-    {
-      title: "Build Actions For Google Assistant",
-      subtitle: "Codelab at GDG DevFest Karachi 2019",
-      slides_url: "https://bit.ly/saadpasta-slides",
-      event_url: "https://www.facebook.com/events/2339906106275053/"
-    }
-  ],
-  display: true // Set false to hide this section, defaults to true
+  // talks: [
+  //   {
+  //     title: "Build Actions For Google Assistant",
+  //     subtitle: "Codelab at GDG DevFest Karachi 2019",
+  //     slides_url: "https://bit.ly/saadpasta-slides",
+  //     event_url: "https://www.facebook.com/events/2339906106275053/"
+  //   }
+  // ],
+  // display: true // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
 
 const podcastSection = {
-  title: emoji("Podcast 🎙️"),
-  subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
+  // title: emoji("Podcast 🎙️"),
+  // subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
 
-  // Please Provide with Your Podcast embeded Link
-  podcast: [
-    "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
-  ],
-  display: true // Set false to hide this section, defaults to true
+  // // Please Provide with Your Podcast embeded Link
+  // podcast: [
+  //   "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
+  // ],
+  // display: true // Set false to hide this section, defaults to true
 };
+
 
 // Resume Section
 const resumeSection = {
@@ -386,7 +388,7 @@ const twitterDetails = {
 const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
-  illustration,
+ illustration,
   greeting,
   socialMediaLinks,
   splashScreen,
