@@ -228,37 +228,20 @@ const bigProjects = {
     {
       image: require("./assets/images/movieRecommender.png"),
       projectName: "Personalized Movie Recommender",
-      projectDesc: "Built a hybrid movie recommender using Neural Collaborative Filtering, Gradient Boosting, and ensemble models.",
-      company: "Personal Project", // Added to match experiences format
-      date: "November 2024 – December 2024", // Timeline formatted like experiences
-      descBullets: [ // Using descBullets like in experiences
-        "Integrated collaborative + content-based filtering",
-        "Tuned model using validation RMSE and ensemble averaging",
-        "Built and deployed interactive Flask dashboard"
-      ],
+      projectDesc:
+        "Built a hybrid movie recommender using Neural Collaborative Filtering, Gradient Boosting, and ensemble models. Deployed via a responsive Flask dashboard for real-time interaction and analysis.\n\n📅 Timeline: November 2024 – December 2024 (1 month)\n📊 Key Contributions:\n- Integrated collaborative + content-based filtering\n- Tuned model using validation RMSE and ensemble averaging\n- Built and deployed interactive Flask dashboard\n🔧 Tools: Python, Flask, Pandas, scikit-learn, Surprise",
       footerLink: [
         {
           name: "GitHub",
           url: "https://github.com/kushfaldu19/movie-recommender"
-        },
-        {
-          name: "Live Demo",
-          url: "#"
         }
       ]
     },
     {
       image: require("./assets/images/stockPredictor.png"),
       projectName: "LSTM-Based Stock Price Predictor",
-      projectDesc: "Developed a deep learning model to forecast stock trends using historical data and visualization tools.",
-      company: "Data Science Project", // Added to match experiences format
-      date: "January 2025 – March 2025", // Updated timeline from image
-      descBullets: [ // Updated with details from image
-        "Collected and cleaned stock data from Alpha Vantage API",
-        "Trained LSTM neural networks for price forecasting",
-        "Built an interactive dashboard to display predictions and backtest results",
-        "Implemented Flask backend for model serving"
-      ],
+      projectDesc:
+        "Engineered a deep learning pipeline using LSTM to predict stock prices with feature normalization and rolling windows. Visualized results using Matplotlib and Seaborn.\n\n📅 Timeline: January 2025 – February 2025 (1 month)\n📊 Key Contributions:\n- Preprocessed time series data with normalization and windowing\n- Designed stacked LSTM model to learn sequential trends\n- Evaluated predictions with MAE and RMSE\n🔧 Tools: Python, TensorFlow/Keras, NumPy, Matplotlib, Seaborn",
       footerLink: [
         {
           name: "GitHub",
@@ -269,27 +252,17 @@ const bigProjects = {
     {
       image: require("./assets/images/abTestingSimulator.png"),
       projectName: "Product Funnel Analytics & A/B Testing Simulator",
-      projectDesc: "Designed and analyzed an A/B test to optimize website engagement by comparing UI variations.",
-      company: "UX Research Project", // Added to match experiences format
-      date: "February 2025 – March 2025", // Timeline formatted like experiences
-      descBullets: [
-        "Designed Variant A and B with different CTAs and layouts",
-        "Analyzed click-through rates (CTR), resulting in 54% success for Variant B",
-        "Interpreted statistical significance for deployment decisions"
-      ],
+      projectDesc:
+        "Designed and analyzed an A/B test to optimize website engagement by comparing two UI variations.\n\n📅 Timeline: February 2025 – March 2025 (1.5 months)\n📊 Key Contributions:\n- Designed Variant A and B with different CTAs and layouts\n- Collected and analyzed click-through rates (CTR), resulting in a 54% success rate for Variant B\n- Interpreted statistical significance and recommended deployment based on user engagement\n🔧 Tools: Python, Pandas, Tableau, Google Optimize",
       footerLink: [
         {
           name: "GitHub",
           url: "https://github.com/kushfaldu19/ab-testing-simulator"
-        },
-        {
-          name: "Case Study",
-          url: "#"
         }
       ]
     }
   ],
-  display: true
+  display: true // Set false to hide this section, defaults to true
 };
 
 
