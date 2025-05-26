@@ -386,7 +386,7 @@ const contactInfo = {
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
   number: "+1(980)-318-2531",
-  email_address: "kushfaldu@gmail.com"
+  email_address: "kushfaldu13@gmail.com"
 };
 
 // Twitter Section
