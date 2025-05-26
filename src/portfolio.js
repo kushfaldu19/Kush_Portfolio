@@ -32,116 +32,56 @@ const greeting = {
 
 // Social Media Links
 
-const socialMediaLinks = {
-  github: "https://github.com/kushfaldu19",
-  linkedin: "https://www.linkedin.com/in/kush-faldu-a2017a19b",
-  gmail: "kushfaldu13@gmail.com",
-  gitlab: "https://gitlab.com/kushfaldu19",
-  // Instagram, Twitter and Kaggle are also supported in the links!
-  // To customize icons and social links, tweak src/components/SocialMedia
-  display: true // Set true to display this section, defaults to false
-};
-
-// Skills Section
-
 const skillsSection = {
   title: "What I do",
   subTitle: "Passionate Full-Stack Software Engineer Exploring a Wide Range of Technologies",
+
   skills: [
-    emoji("✨ Craft intuitive and engaging front-end experiences for web and mobile"),
-    emoji("🔧 Architect and develop scalable Progressive Web Applications (PWAs)"),
-    emoji("🔗 Seamlessly connect applications with cloud platforms like Google Cloud and AWS"),
-    emoji("📊 Analyze data and build predictive models using machine learning techniques"),
-    emoji("🧪 Design, run, and interpret A/B experiments for data-informed product decisions"),
-    emoji("⚙️ Automate development workflows with CI/CD and containerization tools")
-  ],
-
-  /* Make Sure to include correct Font Awesome Classname to view your icon
-https://fontawesome.com/icons?d=gallery */
-
-  softwareSkills: [
     {
-      skillName: "HTML",
-      fontAwesomeClassname: "fab fa-html5"
+      domain: "💻 Software Engineering",
+      points: [
+        "Build scalable and maintainable full-stack applications",
+        "Design and implement REST APIs and microservices",
+        "Follow Agile and Git-based workflows for efficient collaboration"
+      ]
     },
     {
-      skillName: "CSS",
-      fontAwesomeClassname: "fab fa-css3-alt"
+      domain: "🌐 Front-End Development",
+      points: [
+        "Create responsive and accessible user interfaces",
+        "Use modern frameworks like React and Tailwind CSS",
+        "Build Progressive Web Apps (PWAs) for offline support"
+      ]
     },
     {
-      skillName: "SASS",
-      fontAwesomeClassname: "fab fa-sass"
+      domain: "☁️ Cloud & DevOps",
+      points: [
+        "Deploy and manage applications on AWS and GCP",
+        "Use Docker and GitHub Actions for CI/CD pipelines",
+        "Monitor and scale applications using cloud-native tools"
+      ]
     },
     {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
+      domain: "📊 Data Science & Machine Learning",
+      points: [
+        "Build predictive models using scikit-learn and TensorFlow",
+        "Run A/B tests to evaluate feature impact",
+        "Explore and visualize data with Pandas and Seaborn"
+      ]
     },
     {
-      skillName: "ReactJS",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "NodeJS",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "Swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "NPM",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "SQL",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "MongoDB",
-      fontAwesomeClassname: "fas fa-leaf"
-    },
-    {
-      skillName: "AWS",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "Google Cloud",
-      fontAwesomeClassname: "fab fa-google"
-    },
-    {
-      skillName: "Python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "Pandas",
-      fontAwesomeClassname: "fas fa-chart-line"
-    },
-    {
-      skillName: "TensorFlow",
-      fontAwesomeClassname: "fas fa-brain"
-    },
-    {
-      skillName: "Docker",
-      fontAwesomeClassname: "fab fa-docker"
-    },
-    {
-      skillName: "Git",
-      fontAwesomeClassname: "fab fa-git-alt"
-    },
-    {
-      skillName: "Linux",
-      fontAwesomeClassname: "fab fa-linux"
-    },
-    {
-      skillName: "Jupyter",
-      fontAwesomeClassname: "fas fa-book"
-    },
-    {
-      skillName: "Tableau",
-      fontAwesomeClassname: "fas fa-chart-pie"
+      domain: "🔐 Systems & Security",
+      points: [
+        "Understand system-level programming with C and Unix",
+        "Implement synchronization with semaphores and locks",
+        "Write secure and robust low-level code"
+      ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+
+  softwareSkills: [ /* your existing icons list here */ ],
+
+  display: true
 };
 
 // Education Section
