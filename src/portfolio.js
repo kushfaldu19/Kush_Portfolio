@@ -224,8 +224,6 @@ const openSource = {
 
 // Big Projects Section
 
-// Big Projects Section
-
 const bigProjects = {
   title: "Projects",
   subtitle: "Some personal and academic projects I've worked on recently",
@@ -233,14 +231,14 @@ const bigProjects = {
     {
       image: require("./assets/images/movieRecommender.png"),
       projectName: "Personalized Movie Recommender",
-      projectDesc: "Built a hybrid movie recommender using Neural Collaborative Filtering, Gradient Boosting, and ensemble models. Deployed via a responsive Flask dashboard for real-time interaction and analysis.",
-      date: "November 2024 – December 2024 (1 month)",
+      desc: "Built a hybrid movie recommender and deployed it with an interactive dashboard.",
       descBullets: [
-        "Integrated collaborative and content-based filtering for hybrid recommendations",
-        "Tuned model performance using validation RMSE and ensemble averaging techniques",
-        "Built and deployed interactive Flask dashboard for live recommendations"
+        "Integrated collaborative + content-based filtering",
+        "Tuned models using validation RMSE and ensemble averaging",
+        "Built and deployed interactive Flask dashboard",
+        "📅 Timeline: November 2024 – December 2024",
+        "🔧 Tools: Python, Flask, Pandas, scikit-learn, Surprise"
       ],
-      tools: "Python, Flask, Pandas, scikit-learn, Surprise",
       footerLink: [
         {
           name: "GitHub",
@@ -251,14 +249,14 @@ const bigProjects = {
     {
       image: require("./assets/images/stockPredictor.png"),
       projectName: "LSTM-Based Stock Price Predictor",
-      projectDesc: "Engineered a deep learning pipeline using LSTM to predict stock prices with feature normalization and rolling windows. Visualized results using Matplotlib and Seaborn.",
-      date: "January 2025 – February 2025 (1 month)",
+      desc: "Engineered a deep learning pipeline to predict stock prices.",
       descBullets: [
-        "Preprocessed time series data using normalization and rolling windows",
-        "Designed and trained stacked LSTM model for temporal pattern recognition",
-        "Evaluated predictions using MAE and RMSE metrics"
+        "Preprocessed time series data with normalization and rolling windows",
+        "Designed stacked LSTM model to learn sequential trends",
+        "Evaluated predictions with MAE and RMSE",
+        "📅 Timeline: January 2025 – February 2025",
+        "🔧 Tools: Python, TensorFlow/Keras, NumPy, Matplotlib, Seaborn"
       ],
-      tools: "Python, TensorFlow/Keras, NumPy, Matplotlib, Seaborn",
       footerLink: [
         {
           name: "GitHub",
@@ -269,14 +267,14 @@ const bigProjects = {
     {
       image: require("./assets/images/abTestingSimulator.png"),
       projectName: "Product Funnel Analytics & A/B Testing Simulator",
-      projectDesc: "Designed and analyzed an A/B test to optimize website engagement by comparing two UI variations.",
-      date: "February 2025 – March 2025 (1.5 months)",
+      desc: "Designed and analyzed A/B tests to improve website engagement.",
       descBullets: [
-        "Designed Variant A and B interfaces with different CTAs and layouts",
-        "Analyzed click-through rate (CTR), leading to a 54% uplift in Variant B",
-        "Interpreted results using statistical tests and presented deployment recommendation"
+        "Designed Variant A and B with different CTAs and layouts",
+        "Analyzed click-through rates, leading to 54% success rate for Variant B",
+        "Recommended deployment using statistical significance",
+        "📅 Timeline: February 2025 – March 2025",
+        "🔧 Tools: Python, Pandas, Tableau, Google Optimize"
       ],
-      tools: "Python, Pandas, Tableau, Google Optimize",
       footerLink: [
         {
           name: "GitHub",
