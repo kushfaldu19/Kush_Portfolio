@@ -50,7 +50,10 @@ const skillsSection = {
   skills: [
     emoji("✨ Craft intuitive and engaging front-end experiences for web and mobile"),
     emoji("🔧 Architect and develop scalable Progressive Web Applications (PWAs)"),
-    emoji("🔗 Seamlessly connect applications with cloud platforms like Google Cloud and AWS")
+    emoji("🔗 Seamlessly connect applications with cloud platforms like Google Cloud and AWS"),
+    emoji("📊 Analyze data and build predictive models using machine learning techniques"),
+    emoji("🧪 Design, run, and interpret A/B experiments for data-informed product decisions"),
+    emoji("⚙️ Automate development workflows with CI/CD and containerization tools")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -58,15 +61,15 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html",
+      skillName: "HTML",
       fontAwesomeClassname: "fab fa-html5"
     },
     {
-      skillName: "css",
+      skillName: "CSS",
       fontAwesomeClassname: "fab fa-css3-alt"
     },
     {
-      skillName: "sass",
+      skillName: "SASS",
       fontAwesomeClassname: "fab fa-sass"
     },
     {
@@ -74,36 +77,68 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-js"
     },
     {
-      skillName: "reactjs",
+      skillName: "ReactJS",
       fontAwesomeClassname: "fab fa-react"
     },
     {
-      skillName: "nodejs",
+      skillName: "NodeJS",
       fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "swift",
+      skillName: "Swift",
       fontAwesomeClassname: "fab fa-swift"
     },
     {
-      skillName: "npm",
+      skillName: "NPM",
       fontAwesomeClassname: "fab fa-npm"
     },
     {
-      skillName: "sql-database",
+      skillName: "SQL",
       fontAwesomeClassname: "fas fa-database"
     },
     {
-      skillName: "aws",
+      skillName: "MongoDB",
+      fontAwesomeClassname: "fas fa-leaf"
+    },
+    {
+      skillName: "AWS",
       fontAwesomeClassname: "fab fa-aws"
     },
     {
-      skillName: "python",
+      skillName: "Google Cloud",
+      fontAwesomeClassname: "fab fa-google"
+    },
+    {
+      skillName: "Python",
       fontAwesomeClassname: "fab fa-python"
     },
     {
-      skillName: "docker",
+      skillName: "Pandas",
+      fontAwesomeClassname: "fas fa-chart-line"
+    },
+    {
+      skillName: "TensorFlow",
+      fontAwesomeClassname: "fas fa-brain"
+    },
+    {
+      skillName: "Docker",
       fontAwesomeClassname: "fab fa-docker"
+    },
+    {
+      skillName: "Git",
+      fontAwesomeClassname: "fab fa-git-alt"
+    },
+    {
+      skillName: "Linux",
+      fontAwesomeClassname: "fab fa-linux"
+    },
+    {
+      skillName: "Jupyter",
+      fontAwesomeClassname: "fas fa-book"
+    },
+    {
+      skillName: "Tableau",
+      fontAwesomeClassname: "fas fa-chart-pie"
     }
   ],
   display: true // Set false to hide this section, defaults to true
