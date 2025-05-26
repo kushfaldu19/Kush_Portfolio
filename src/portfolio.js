@@ -46,22 +46,35 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "Full-Stack Developer | Machine Learning Enthusiast | Cloud Integrator | Data Explorer",
-  skills: [
-    // Frontend & Web
-    emoji("✨ Craft intuitive front-end experiences with React, Angular, HTML/CSS, and Next.js"),
-    emoji("🔧 Build robust and scalable backends with Node.js, Django, Flask, and PHP"),
-    emoji("📱 Develop mobile-responsive web apps and Progressive Web Apps (PWAs)"),
-
-    // Cloud & DevOps
-    emoji("🔗 Integrate apps with AWS, Google Cloud, and CI/CD pipelines using Docker & Jenkins"),
-    emoji("⚙️ Automate workflows with GitHub Actions and container orchestration"),
-
-    // Data & Machine Learning
-    emoji("📊 Analyze data with Pandas, NumPy, Tableau, and SQL"),
-    emoji("🧠 Develop ML models using Scikit-learn, TensorFlow, Keras, XGBoost"),
-    emoji("🧪 Conduct A/B testing and causal inference for product experiments"),
-    emoji("🔍 Use SHAP and StatsModels for model interpretability and statistical analysis")
+  categories: [
+    {
+      subTitle: "Frontend & Web Development",
+      skills: [
+        emoji("✨ Craft intuitive front-end experiences with React, Angular, HTML/CSS, and Next.js"),
+        emoji("📱 Develop mobile-responsive web apps and PWAs")
+      ]
+    },
+    {
+      subTitle: "Backend & DevOps",
+      skills: [
+        emoji("🔧 Build scalable backend systems with Node.js, Flask, and PHP"),
+        emoji("⚙️ Automate workflows with Docker, GitHub Actions, and Jenkins")
+      ]
+    },
+    {
+      subTitle: "Cloud & Integrations",
+      skills: [
+        emoji("🔗 Integrate apps with AWS, Google Cloud, and REST APIs")
+      ]
+    },
+    {
+      subTitle: "Data & Machine Learning",
+      skills: [
+        emoji("📊 Analyze data using Pandas, SQL, and Tableau"),
+        emoji("🧠 Build ML models with Scikit-learn, TensorFlow, and XGBoost"),
+        emoji("🧪 Conduct A/B testing and interpret model results using SHAP")
+      ]
+    }
   ],
 
   softwareSkills: [
