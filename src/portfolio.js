@@ -32,54 +32,76 @@ const greeting = {
 
 // Social Media Links
 
+const socialMediaLinks = {
+  github: "https://github.com/kushfaldu19",
+  linkedin: "https://www.linkedin.com/in/kush-faldu-a2017a19b",
+  gmail: "kushfaldu13@gmail.com",
+  gitlab: "https://gitlab.com/kushfaldu19",
+  // Instagram, Twitter and Kaggle are also supported in the links!
+  // To customize icons and social links, tweak src/components/SocialMedia
+  display: true // Set true to display this section, defaults to false
+};
+
+// Skills Section
+
 const skillsSection = {
   title: "What I do",
-  subTitle: "Passionate Full-Stack Software Engineer Exploring a Wide Range of Technologies",
-
+  subTitle: "Full-Stack Developer | Machine Learning Enthusiast | Cloud Integrator | Data Explorer",
   skills: [
-    {
-      domain: "💻 Software Engineering",
-      points: [
-        "Build scalable and maintainable full-stack applications",
-        "Design and implement REST APIs and microservices",
-        "Follow Agile and Git-based workflows for efficient collaboration"
-      ]
-    },
-    {
-      domain: "🌐 Front-End Development",
-      points: [
-        "Create responsive and accessible user interfaces",
-        "Use modern frameworks like React and Tailwind CSS",
-        "Build Progressive Web Apps (PWAs) for offline support"
-      ]
-    },
-    {
-      domain: "☁️ Cloud & DevOps",
-      points: [
-        "Deploy and manage applications on AWS and GCP",
-        "Use Docker and GitHub Actions for CI/CD pipelines",
-        "Monitor and scale applications using cloud-native tools"
-      ]
-    },
-    {
-      domain: "📊 Data Science & Machine Learning",
-      points: [
-        "Build predictive models using scikit-learn and TensorFlow",
-        "Run A/B tests to evaluate feature impact",
-        "Explore and visualize data with Pandas and Seaborn"
-      ]
-    },
-    {
-      domain: "🔐 Systems & Security",
-      points: [
-        "Understand system-level programming with C and Unix",
-        "Implement synchronization with semaphores and locks",
-        "Write secure and robust low-level code"
-      ]
-    }
+    // Frontend & Web
+    emoji("✨ Craft intuitive front-end experiences with React, Angular, HTML/CSS, and Next.js"),
+    emoji("🔧 Build robust and scalable backends with Node.js, Django, Flask, and PHP"),
+    emoji("📱 Develop mobile-responsive web apps and Progressive Web Apps (PWAs)"),
+
+    // Cloud & DevOps
+    emoji("🔗 Integrate apps with AWS, Google Cloud, and CI/CD pipelines using Docker & Jenkins"),
+    emoji("⚙️ Automate workflows with GitHub Actions and container orchestration"),
+
+    // Data & Machine Learning
+    emoji("📊 Analyze data with Pandas, NumPy, Tableau, and SQL"),
+    emoji("🧠 Develop ML models using Scikit-learn, TensorFlow, Keras, XGBoost"),
+    emoji("🧪 Conduct A/B testing and causal inference for product experiments"),
+    emoji("🔍 Use SHAP and StatsModels for model interpretability and statistical analysis")
   ],
 
-  softwareSkills: [ /* your existing icons list here */ ],
+  softwareSkills: [
+    // Web
+    { skillName: "HTML", fontAwesomeClassname: "fab fa-html5" },
+    { skillName: "CSS", fontAwesomeClassname: "fab fa-css3-alt" },
+    { skillName: "JavaScript", fontAwesomeClassname: "fab fa-js" },
+    { skillName: "React", fontAwesomeClassname: "fab fa-react" },
+    { skillName: "Angular", fontAwesomeClassname: "fab fa-angular" },
+    { skillName: "Node.js", fontAwesomeClassname: "fab fa-node" },
+    { skillName: "PHP", fontAwesomeClassname: "fab fa-php" },
+    { skillName: "Next.js", fontAwesomeClassname: "fas fa-code" },
+    { skillName: "Django", fontAwesomeClassname: "fas fa-python" },
+    { skillName: "Flask", fontAwesomeClassname: "fas fa-flask" },
+
+    // Tools & Platforms
+    { skillName: "Git", fontAwesomeClassname: "fab fa-git-alt" },
+    { skillName: "Docker", fontAwesomeClassname: "fab fa-docker" },
+    { skillName: "Jenkins", fontAwesomeClassname: "fas fa-cogs" },
+    { skillName: "AWS", fontAwesomeClassname: "fab fa-aws" },
+    { skillName: "Google Cloud", fontAwesomeClassname: "fab fa-google" },
+    { skillName: "Jupyter", fontAwesomeClassname: "fas fa-book" },
+    { skillName: "Tableau", fontAwesomeClassname: "fas fa-chart-pie" },
+
+    // Data Science & ML
+    { skillName: "Python", fontAwesomeClassname: "fab fa-python" },
+    { skillName: "Pandas", fontAwesomeClassname: "fas fa-chart-line" },
+    { skillName: "NumPy", fontAwesomeClassname: "fas fa-superscript" },
+    { skillName: "TensorFlow", fontAwesomeClassname: "fas fa-brain" },
+    { skillName: "Keras", fontAwesomeClassname: "fas fa-project-diagram" },
+    { skillName: "XGBoost", fontAwesomeClassname: "fas fa-rocket" },
+    { skillName: "SHAP", fontAwesomeClassname: "fas fa-lightbulb" },
+    { skillName: "StatsModels", fontAwesomeClassname: "fas fa-percentage" },
+
+    // Databases
+    { skillName: "MySQL", fontAwesomeClassname: "fas fa-database" },
+    { skillName: "PostgreSQL", fontAwesomeClassname: "fas fa-database" },
+    { skillName: "MongoDB", fontAwesomeClassname: "fas fa-leaf" },
+    { skillName: "Oracle", fontAwesomeClassname: "fas fa-database" }
+  ],
 
   display: true
 };
