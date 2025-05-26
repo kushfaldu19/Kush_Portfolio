@@ -222,38 +222,52 @@ const openSource = {
   display: false // Set false to hide this section, defaults to true
 };
 
-// Some big projects you have worked on
+// Big Projects Section
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Projects",
+  subtitle: "Some personal and academic projects I've worked on recently",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/movieRecommender.png"),
+      projectName: "Personalized Movie Recommender",
+      projectDesc:
+        "Built a hybrid movie recommender using Neural Collaborative Filtering, Gradient Boosting, and ensemble models. Deployed via a responsive Flask dashboard for real-time interaction and analysis.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "GitHub",
+          url: "https://github.com/kushfaldu19/movie-recommender" // <-- change this if different
         }
-        //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/stockPredictor.png"),
+      projectName: "LSTM-Based Stock Price Predictor",
+      projectDesc:
+        "Engineered a deep learning pipeline using LSTM to predict stock prices with feature normalization and rolling windows. Visualized results using Matplotlib and Seaborn.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "GitHub",
+          url: "https://github.com/kushfaldu19/stock-price-predictor" // <-- change this if different
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/abTestingSimulator.png"),
+      projectName: "Product Funnel Analytics & A/B Testing Simulator",
+      projectDesc:
+        "Modeled user funnels using synthetic tracking data and conducted A/B testing with statistical analysis. Built an interactive KPI dashboard with Dash.",
+      footerLink: [
+        {
+          name: "GitHub",
+          url: "https://github.com/kushfaldu19/ab-testing-simulator" // <-- change this if different
         }
       ]
     }
   ],
   display: true // Set false to hide this section, defaults to true
 };
+
 
 // Achievement Section
 // Include certificates, talks etc
