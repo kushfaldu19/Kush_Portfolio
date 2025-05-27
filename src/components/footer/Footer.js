@@ -13,13 +13,13 @@ export default function Footer() {
           {emoji("")}
         </p>
         <p className={isDark ? "dark-mode footer-text" : "footer-text"}>
-          Theme by{" "}
+            {" "}
           <a
             href="https://github.com/kushfaldu19/Kush_Portfolio"
             target="_blank"
             rel="noreferrer"
           >
-            developerFolio
+            Kush Faldu
           </a>
         </p>
       </div>
