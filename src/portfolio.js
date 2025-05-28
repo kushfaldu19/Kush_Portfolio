@@ -228,53 +228,26 @@ const bigProjects = {
     {
       image: require("./assets/images/movieRecommender.png"),
       projectName: "Personalized Movie Recommender",
-      timeline: "November 2024 – December 2024 (1 month)",
-      contributions: [
-        "Integrated collaborative + content-based filtering",
-        "Tuned model using validation RMSE and ensemble averaging",
-        "Built and deployed interactive Flask dashboard"
-      ],
+      timeline: "Nov 2024 – Dec 2024",
+      desc: "Hybrid recommendation system combining collaborative and content-based filtering. Deployed via Flask dashboard.",
       tools: "Python, Flask, Pandas, scikit-learn, Surprise",
-      footerLink: [
-        {
-          name: "GitHub",
-          url: "https://github.com/kushfaldu19/movie-recommender"
-        }
-      ]
+      link: "https://github.com/kushfaldu19/movie-recommender"
     },
     {
       image: require("./assets/images/stockPredictor.png"),
       projectName: "LSTM-Based Stock Price Predictor",
-      timeline: "January 2025 – February 2025 (1 month)",
-      contributions: [
-        "Preprocessed time series data with normalization and windowing",
-        "Designed stacked LSTM model to learn sequential trends",
-        "Evaluated predictions with MAE and RMSE"
-      ],
-      tools: "Python, TensorFlow/Keras, NumPy, Matplotlib, Seaborn",
-      footerLink: [
-        {
-          name: "GitHub",
-          url: "https://github.com/kushfaldu19/stock-price-predictor"
-        }
-      ]
+      timeline: "Jan 2025 – Feb 2025",
+      desc: "LSTM model for stock prediction using normalized features and rolling windows. Visualized with Matplotlib.",
+      tools: "Python, TensorFlow, NumPy, Matplotlib, Seaborn",
+      link: "https://github.com/kushfaldu19/stock-price-predictor"
     },
     {
       image: require("./assets/images/abTestingSimulator.png"),
-      projectName: "Product Funnel Analytics & A/B Testing Simulator",
-      timeline: "February 2025 – March 2025 (1.5 months)",
-      contributions: [
-        "Designed Variant A and B with different CTAs and layouts",
-        "Analyzed click-through rates (CTR); Variant B saw 54% increase",
-        "Interpreted statistical significance and recommended rollout"
-      ],
+      projectName: "Product Funnel A/B Testing Simulator",
+      timeline: "Feb 2025 – Mar 2025",
+      desc: "Simulated and analyzed A/B tests to optimize UI conversions. Data-driven recommendation deployment.",
       tools: "Python, Pandas, Tableau, Google Optimize",
-      footerLink: [
-        {
-          name: "GitHub",
-          url: "https://github.com/kushfaldu19/ab-testing-simulator"
-        }
-      ]
+      link: "https://github.com/kushfaldu19/ab-testing-simulator"
     }
   ],
   display: true
