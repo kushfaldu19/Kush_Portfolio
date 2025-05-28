@@ -222,19 +222,19 @@ const openSource = {
 // Big Projects Section
 
 const bigProjects = {
-  title: "Projects",
+   title: "Projects",
   subtitle: "Some personal and academic projects I've worked on recently",
   projects: [
     {
       image: require("./assets/images/movieRecommender.png"),
       projectName: "Personalized Movie Recommender",
-      projectDesc:
-        "📅 Timeline: November 2024 – December 2024 (1 month)\n" +
-        "📚 Key Contributions:\n" +
-        "• Integrated collaborative + content-based filtering\n" +
-        "• Tuned model using validation RMSE and ensemble averaging\n" +
-        "• Built and deployed interactive Flask dashboard\n" +
-        "🛠 Tools: Python, Flask, Pandas, scikit-learn, Surprise",
+      timeline: "November 2024 – December 2024 (1 month)",
+      contributions: [
+        "Integrated collaborative + content-based filtering",
+        "Tuned model using validation RMSE and ensemble averaging",
+        "Built and deployed interactive Flask dashboard"
+      ],
+      tools: "Python, Flask, Pandas, scikit-learn, Surprise",
       footerLink: [
         {
           name: "GitHub",
@@ -245,13 +245,13 @@ const bigProjects = {
     {
       image: require("./assets/images/stockPredictor.png"),
       projectName: "LSTM-Based Stock Price Predictor",
-      projectDesc:
-        "📅 Timeline: January 2025 – February 2025 (1 month)\n" +
-        "📚 Key Contributions:\n" +
-        "• Preprocessed time series data with normalization and windowing\n" +
-        "• Designed stacked LSTM model to learn sequential trends\n" +
-        "• Evaluated predictions with MAE and RMSE\n" +
-        "🛠 Tools: Python, TensorFlow/Keras, NumPy, Matplotlib, Seaborn",
+      timeline: "January 2025 – February 2025 (1 month)",
+      contributions: [
+        "Preprocessed time series data with normalization and windowing",
+        "Designed stacked LSTM model to learn sequential trends",
+        "Evaluated predictions with MAE and RMSE"
+      ],
+      tools: "Python, TensorFlow/Keras, NumPy, Matplotlib, Seaborn",
       footerLink: [
         {
           name: "GitHub",
@@ -262,13 +262,13 @@ const bigProjects = {
     {
       image: require("./assets/images/abTestingSimulator.png"),
       projectName: "Product Funnel Analytics & A/B Testing Simulator",
-      projectDesc:
-        "📅 Timeline: February 2025 – March 2025 (1.5 months)\n" +
-        "📚 Key Contributions:\n" +
-        "• Designed Variant A and B with different CTAs and layouts\n" +
-        "• Analyzed click-through rates (CTR); Variant B saw 54% increase\n" +
-        "• Interpreted statistical significance and recommended rollout\n" +
-        "🛠 Tools: Python, Pandas, Tableau, Google Optimize",
+      timeline: "February 2025 – March 2025 (1.5 months)",
+      contributions: [
+        "Designed Variant A and B with different CTAs and layouts",
+        "Analyzed click-through rates (CTR); Variant B saw 54% increase",
+        "Interpreted statistical significance and recommended rollout"
+      ],
+      tools: "Python, Pandas, Tableau, Google Optimize",
       footerLink: [
         {
           name: "GitHub",
@@ -277,7 +277,7 @@ const bigProjects = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true
 };
 
 
