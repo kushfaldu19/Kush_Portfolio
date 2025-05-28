@@ -229,7 +229,12 @@ const bigProjects = {
       image: require("./assets/images/movieRecommender.png"),
       projectName: "Personalized Movie Recommender",
       projectDesc:
-        "Built a hybrid movie recommender using Neural Collaborative Filtering, Gradient Boosting, and ensemble models. Deployed via a responsive Flask dashboard for real-time interaction and analysis.\n\n📅 Timeline: November 2024 – December 2024 (1 month)\n📊 Key Contributions:\n- Integrated collaborative + content-based filtering\n- Tuned model using validation RMSE and ensemble averaging\n- Built and deployed interactive Flask dashboard\n🔧 Tools: Python, Flask, Pandas, scikit-learn, Surprise",
+        "📅 Timeline: November 2024 – December 2024 (1 month)\n" +
+        "📚 Key Contributions:\n" +
+        "• Integrated collaborative + content-based filtering\n" +
+        "• Tuned model using validation RMSE and ensemble averaging\n" +
+        "• Built and deployed interactive Flask dashboard\n" +
+        "🛠 Tools: Python, Flask, Pandas, scikit-learn, Surprise",
       footerLink: [
         {
           name: "GitHub",
@@ -241,7 +246,12 @@ const bigProjects = {
       image: require("./assets/images/stockPredictor.png"),
       projectName: "LSTM-Based Stock Price Predictor",
       projectDesc:
-        "Engineered a deep learning pipeline using LSTM to predict stock prices with feature normalization and rolling windows. Visualized results using Matplotlib and Seaborn.\n\n📅 Timeline: January 2025 – February 2025 (1 month)\n📊 Key Contributions:\n- Preprocessed time series data with normalization and windowing\n- Designed stacked LSTM model to learn sequential trends\n- Evaluated predictions with MAE and RMSE\n🔧 Tools: Python, TensorFlow/Keras, NumPy, Matplotlib, Seaborn",
+        "📅 Timeline: January 2025 – February 2025 (1 month)\n" +
+        "📚 Key Contributions:\n" +
+        "• Preprocessed time series data with normalization and windowing\n" +
+        "• Designed stacked LSTM model to learn sequential trends\n" +
+        "• Evaluated predictions with MAE and RMSE\n" +
+        "🛠 Tools: Python, TensorFlow/Keras, NumPy, Matplotlib, Seaborn",
       footerLink: [
         {
           name: "GitHub",
@@ -253,7 +263,12 @@ const bigProjects = {
       image: require("./assets/images/abTestingSimulator.png"),
       projectName: "Product Funnel Analytics & A/B Testing Simulator",
       projectDesc:
-        "Designed and analyzed an A/B test to optimize website engagement by comparing two UI variations.\n\n📅 Timeline: February 2025 – March 2025 (1.5 months)\n📊 Key Contributions:\n- Designed Variant A and B with different CTAs and layouts\n- Collected and analyzed click-through rates (CTR), resulting in a 54% success rate for Variant B\n- Interpreted statistical significance and recommended deployment based on user engagement\n🔧 Tools: Python, Pandas, Tableau, Google Optimize",
+        "📅 Timeline: February 2025 – March 2025 (1.5 months)\n" +
+        "📚 Key Contributions:\n" +
+        "• Designed Variant A and B with different CTAs and layouts\n" +
+        "• Analyzed click-through rates (CTR); Variant B saw 54% increase\n" +
+        "• Interpreted statistical significance and recommended rollout\n" +
+        "🛠 Tools: Python, Pandas, Tableau, Google Optimize",
       footerLink: [
         {
           name: "GitHub",
