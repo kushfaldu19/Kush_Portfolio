@@ -228,7 +228,7 @@ const bigProjects = {
     {
       image: require("./assets/images/movieRecommender.png"),
       projectName: "Personalized Movie Recommender",
-      Desc:
+      projectDesc:
         "Built a hybrid movie recommender using Neural Collaborative Filtering, Gradient Boosting, and ensemble models. Deployed via a responsive Flask dashboard for real-time interaction and analysis.\n\n📅 Timeline: November 2024 – December 2024 (1 month)\n📊 Key Contributions:\n- Integrated collaborative + content-based filtering\n- Tuned model using validation RMSE and ensemble averaging\n- Built and deployed interactive Flask dashboard\n🔧 Tools: Python, Flask, Pandas, scikit-learn, Surprise",
       footerLink: [
         {
