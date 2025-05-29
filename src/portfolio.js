@@ -228,14 +228,12 @@ const bigProjects = {
     {
       image: require("./assets/images/movieRecommender.png"),
       projectName: "Personalized Movie Recommender",
-      timeline: "November 2024 – December 2024 (1 month)",
-      description: "Built a hybrid movie recommender using Neural Collaborative Filtering, Gradient Boosting, and ensemble models. Deployed via a responsive Flask dashboard for real-time interaction and analysis.",
-      keyContributions: [
-        "Integrated collaborative and content-based filtering",
+      desc: "Built a hybrid movie recommender using Neural Collaborative Filtering, Gradient Boosting, and ensemble models. Deployed via a responsive Flask dashboard for real-time interaction and analysis.",
+      descBullets: [
+        "Integrated collaborative + content-based filtering",
         "Tuned model using validation RMSE and ensemble averaging",
         "Built and deployed interactive Flask dashboard"
       ],
-      tools: "Python, Flask, Pandas, scikit-learn, Surprise",
       footerLink: [
         {
           name: "GitHub",
@@ -246,14 +244,12 @@ const bigProjects = {
     {
       image: require("./assets/images/stockPredictor.png"),
       projectName: "LSTM-Based Stock Price Predictor",
-      timeline: "January 2025 – February 2025 (1 month)",
-      description: "Engineered a deep learning pipeline using LSTM to predict stock prices with feature normalization and rolling windows. Visualized results using Matplotlib and Seaborn.",
-      keyContributions: [
+      desc: "Engineered a deep learning pipeline using LSTM to predict stock prices with feature normalization and rolling windows. Visualized results using Matplotlib and Seaborn.",
+      descBullets: [
         "Preprocessed time series data with normalization and windowing",
         "Designed stacked LSTM model to learn sequential trends",
         "Evaluated predictions with MAE and RMSE"
       ],
-      tools: "Python, TensorFlow/Keras, NumPy, Matplotlib, Seaborn",
       footerLink: [
         {
           name: "GitHub",
@@ -264,14 +260,12 @@ const bigProjects = {
     {
       image: require("./assets/images/abTestingSimulator.png"),
       projectName: "Product Funnel Analytics & A/B Testing Simulator",
-      timeline: "February 2025 – March 2025 (1.5 months)",
-      description: "Designed and analyzed an A/B test to optimize website engagement by comparing two UI variations.",
-      keyContributions: [
+      desc: "Designed and analyzed an A/B test to optimize website engagement by comparing two UI variations.",
+      descBullets: [
         "Designed Variant A and B with different CTAs and layouts",
         "Collected and analyzed click-through rates (CTR), resulting in a 54% success rate for Variant B",
         "Interpreted statistical significance and recommended deployment based on user engagement"
       ],
-      tools: "Python, Pandas, Tableau, Google Optimize",
       footerLink: [
         {
           name: "GitHub",
