@@ -262,7 +262,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/cleaningAgent.png"),
+      image: require("./assets/images/CleaningAgent.png"),
       projectName: "AI Cleaning Robot",
       projectDesc:
         "Built an intelligent reflex agent in Java to autonomously clean a simulated grid environment using rule-based decision logic and spatial memory.\n\n📅 Timeline: February 2025 – March 2025 (1 month)\n📊 Key Contributions:\n- Prioritized dynamic action sequencing with percept-based triggers\n- Implemented tile-state tracking and heuristic-driven pathing\n- Designed adaptive fallback and backtracking for complete grid coverage",
