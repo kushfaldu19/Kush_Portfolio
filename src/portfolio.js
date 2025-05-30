@@ -262,7 +262,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/abTestingSimulator.png"),
+      image: require("./assets/images/cleaningAgent.png"),
       projectName: "Product Funnel Analytics & A/B Testing Simulator",
       projectDesc:
         "Designed and analyzed an A/B test to optimize website engagement by comparing two UI variations.\n\n📅 Timeline: February 2025 – March 2025 (1.5 months)\n📊 Key Contributions:\n- Designed Variant A and B with different CTAs and layouts\n- Collected and analyzed click-through rates (CTR), resulting in a 54% success rate for Variant B\n- Interpreted statistical significance and recommended deployment based on user engagement\n🔧 Tools: Python, Pandas, Tableau, Google Optimize",
